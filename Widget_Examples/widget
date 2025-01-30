@@ -1,0 +1,24 @@
+#Caleb Aguiar
+#SWE - 410
+#1/28/2025
+#This is an in class activity
+from PyQt6.QtWidgets import QApplication, QWidget # type: ignore
+
+#Only need  for access to command line arguments
+import sys
+
+#You only need one QApplication instance
+#Pass in sys.argv to allow us to do command line arguments
+#If you do not use command line args "QApplication([])"
+app = QApplication(sys.argv)
+
+#Create a Qt widget, which will be our window
+window = QWidget()
+#important!! Windows are hidden by default
+window.show()
+
+#Start the event loop
+app.exec()
+
+#Your Application wont reach here until you exit 
+#and the event loop has stopped

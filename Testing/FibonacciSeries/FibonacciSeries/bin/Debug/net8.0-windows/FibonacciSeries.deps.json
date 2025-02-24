@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FibonacciSeries/1.0.0": {
+        "dependencies": {
+          "FibonacciClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FibonacciSeries.dll": {}
+        }
+      },
+      "FibonacciClassLibrary/1.0.0": {
+        "runtime": {
+          "FibonacciClassLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FibonacciSeries/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FibonacciClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
